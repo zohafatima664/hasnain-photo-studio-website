@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hasnain-photo-studio-website</title>
+    <!-- Font Awesome icons -->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+>
+<!-- Premium website fonts -->
+<!-- Professional website fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
+>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- =====================================================
+     TAB 1: NAVBAR
+     This is the main navigation bar of the website.
+     It contains the Hasnain brand, page links,
+     WhatsApp button, and mobile menu button.
+===================================================== -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <!-- ================= BRAND / LOGO ================= -->
+        <!--
+            Replace "images/logo.png" with the final
+            Hasnain Photo Studio logo later.
+        -->
+
+        <a href="index.html" class="brand">
+
+            <div class="brand-logo-box">
+                <img
+                    src="./LOgo.png"
+                    alt="Hasnain Photo Studio Logo"
+                    class="brand-logo"
+                >
+            </div>
+
+            <div class="brand-text">
+
+                <!-- Main business name -->
+                <span class="brand-name">
+                    HASNAIN
+                </span>
+
+                <!-- Small business description -->
+                <span class="brand-subtitle">
+                    PHOTO STUDIO
+                </span>
+
+            </div>
+
+        </a>
+
+
+        <!-- ================= NAVIGATION LINKS ================= -->
+        <!--
+            These links will later connect to different
+            sections/pages of the website.
+        -->
+
+        <nav class="nav-links" id="navLinks">
+
+            <a href="index.html" class="active">
+                Home
+            </a>
+
+            <a href="#services">
+                Services
+            </a>
+
+            <a href="#gallery">
+                Gallery
+            </a>
+
+            <a href="#online-apply">
+                Online Apply
+            </a>
+
+            <a href="#contact">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <!-- ================= WHATSAPP BUTTON ================= -->
+        <!--
+            This button directly opens WhatsApp chat
+            with Hasnain Photo Studio.
+        -->
+
+        <a
+            href="https://wa.me/923165340832"
+            class="nav-whatsapp"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+
+            <i class="fa-brands fa-whatsapp"></i>
+
+            <span>
+                WhatsApp Us
+            </span>
+
+        </a>
+
+
+        <!-- ================= MOBILE MENU ================= -->
+        <!--
+            This button appears only on mobile screens.
+            JavaScript will later open/close the menu.
+        -->
+
+        <button
+            class="menu-button"
+            id="menuButton"
+            aria-label="Open navigation menu"
+        >
+
+            <i class="fa-solid fa-bars"></i>
+
+        </button>
+
+    </div>
+
+</header>
+<!-- =====================================================
+     HERO SECTION WITH ANIMATED BACKGROUND & IMAGE
+===================================================== -->
+<section class="hero" id="home">
+
+    <!-- Background Animated Image Overlay -->
+    <div class="hero-bg-wrapper">
+        <div class="hero-bg-image"></div>
+        <div class="hero-bg-overlay"></div>
+    </div>
+
+    <div class="hero-container">
+
+        <!-- ================= LEFT CONTENT ================= -->
+        <div class="hero-content">
+
+            <span class="hero-label">
+                <i class="fa-solid fa-camera"></i>
+                HASNAIN PHOTO STUDIO
+            </span>
+
+            <h1>
+                Your Moments.
+                <span>Our Photography.</span>
+            </h1>
+
+            <p class="hero-description">
+                Professional photography, premium printing, customized
+                gifts and complete online studio services — all in one place.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#services" class="hero-btn primary-btn">
+                    Explore Services
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a
+                    href="https://wa.me/923165340832"
+                    class="hero-btn secondary-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-whatsapp"></i>
+                    WhatsApp Us
+                </a>
+
+            </div>
+
+            <!-- Small service highlights -->
+            <div class="hero-info">
+
+                <div class="hero-info-item">
+                    <i class="fa-solid fa-camera"></i>
+                    <span>Professional Photography</span>
+                </div>
+
+                <div class="hero-info-item">
+                    <i class="fa-solid fa-gift"></i>
+                    <span>Customized Gifts</span>
+                </div>
+
+                <div class="hero-info-item">
+                    <i class="fa-solid fa-truck"></i>
+                    <span>Home Delivery</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- ================= RIGHT VISUAL ================= -->
+        <div class="hero-visual">
+
+            <div class="hero-image-wrapper">
+                <img
+                    src="./box_imj.png"
+                    alt="Professional Hasnain Photo Studio"
+                    class="hero-image"
+                >
+                <div class="hero-image-frame"></div>
+            </div>
+
+            <!-- FLOATING GIFT FRAME CARD -->
+            <div class="camera-card">
+                <img
+                    src="./box_imj.png"
+                    alt="Customized Gift Frame"
+                    class="camera-card-image"
+                >
+                <div class="camera-card-content">
+                    <span>CUSTOMIZED GIFTS</span>
+                    <strong>Nikkah Frames</strong>
+                    <small>Capture every moment</small>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- =====================================================
+      TAB 3: SERVICES SECTION
+===================================================== -->
+
+<section class="services-section" id="services">
+
+    <!-- SECTION HEADER -->
+    <div class="services-header">
+
+        <span class="services-label">
+            <i class="fas fa-camera"></i>
+            OUR SERVICES
+        </span>
+
+        <h2>
+            Everything You Need,
+            <span>All in One Place.</span>
+        </h2>
+
+        <p>
+            From professional photography and printing to online
+            applications, customized gifts and home delivery —
+            Hasnain Photo Studio provides complete studio services
+            with convenience and quality.
+        </p>
+
+    </div>
+
+
+    <!-- SERVICES GRID -->
+    <div class="services-grid">
+
+
+        <!-- SERVICE 1 -->
+        <div class="service-card">
+            
+            <div class="card-img-holder img-1">
+                <span class="service-number">01</span>
+            </div>
+
+            <div class="card-body">
+                <div class="service-icon">
+                    <i class="fas fa-camera-retro"></i>
+                </div>
+
+                <h3>Photography & Studio</h3>
+
+                <p>
+                    Professional photography services for personal,
+                    academic, events and special occasions.
+                </p>
+
+                <ul>
+                    <li>Studio Photography</li>
+                    <li>Event Photography & Videography</li>
+                    <li>Passport Photos</li>
+                    <li>Documents Photos</li>
+                    <li>Photo Restoration</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <!-- SERVICE 2 -->
+        <div class="service-card">
+
+            <div class="card-img-holder img-2">
+                <span class="service-number">02</span>
+            </div>
+
+            <div class="card-body">
+                <div class="service-icon">
+                    <i class="fas fa-print"></i>
+                </div>
+
+                <h3>Printing & Documents</h3>
+
+                <p>
+                    Complete photo, document and printing solutions
+                    for students, families and businesses.
+                </p>
+
+                <ul>
+                    <li>Photo Printing</li>
+                    <li>Photo Lamination</li>
+                    <li>Frame & Album</li>
+                    <li>Certificate Printing</li>
+                    <li>Business Visiting Cards</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <!-- SERVICE 3 -->
+        <div class="service-card">
+
+            <div class="card-img-holder img-3">
+                <span class="service-number">03</span>
+            </div>
+
+            <div class="card-body">
+                <div class="service-icon">
+                    <i class="fas fa-gift"></i>
+                </div>
+
+                <h3>Customized Gifts</h3>
+
+                <p>
+                    Create memorable personalized gifts for birthdays,
+                    weddings, celebrations and special moments.
+                </p>
+
+                <ul>
+                    <li>Simple & Magic Mug Printing</li>
+                    <li>Picture Watch</li>
+                    <li>Shirt Printing</li>
+                    <li>Personalized Gifts</li>
+                    <li>Birthday Picture Cake</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <!-- SERVICE 4 -->
+        <div class="service-card">
+
+            <div class="card-img-holder img-4">
+                <span class="service-number">04</span>
+            </div>
+
+            <div class="card-body">
+                <div class="service-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+
+                <h3>Online Services</h3>
+
+                <p>
+                    Get your online applications and digital services
+                    completed with simple and convenient assistance.
+                </p>
+
+                <ul>
+                    <li>Online Form Filling</li>
+                    <li>Document Uploading</li>
+                    <li>University Applications</li>
+                    <li>CV Making</li>
+                    <li>Fee Guidance</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- DELIVERY CTA -->
+    <div class="delivery-banner">
+
+        <div class="delivery-content">
+
+            <div class="delivery-icon">
+                <i class="fas fa-truck"></i>
+            </div>
+
+            <div>
+                <span>CONVENIENT & EASY</span>
+
+                <h3>
+                    Home Delivery Available
+                </h3>
+
+                <p>
+                    Get your selected photography, printing and
+                    customized products delivered to your doorstep.
+                </p>
+            </div>
+
+        </div>
+
+        <a
+            href="https://wa.me/923165340832?text=Assalam%20o%20Alaikum%2C%20I%20want%20to%20know%20about%20home%20delivery."
+            target="_blank"
+            class="delivery-btn"
+        >
+            <i class="fab fa-whatsapp"></i>
+            Order on WhatsApp
+        </a>
+
+    </div>
+
+</section>
+<!-- =====================================================
+     TAB 3: GALLERY
+===================================================== -->
+
+<section class="gallery-section" id="gallery">
+
+    <!-- GALLERY HEADER -->
+    <div class="gallery-header">
+
+        <span class="gallery-label">
+            <i class="fas fa-images"></i>
+            OUR GALLERY
+        </span>
+
+        <h2>
+            Moments Worth
+            <span>Remembering.</span>
+        </h2>
+
+        <p>
+            Explore photography, events, customized gifts,
+            printing and beautiful memories captured and
+            created at Hasnain Studio.
+        </p>
+
+    </div>
+
+
+    <!-- GALLERY FILTERS -->
+    <div class="gallery-filters">
+
+        <button class="gallery-filter active" data-filter="all">
+            All
+        </button>
+
+        <button class="gallery-filter" data-filter="photography">
+            Photography
+        </button>
+
+        <button class="gallery-filter" data-filter="events">
+            Events
+        </button>
+
+        <button class="gallery-filter" data-filter="gifts">
+            Gifts
+        </button>
+
+        <button class="gallery-filter" data-filter="printing">
+            Printing
+        </button>
+
+    </div>
+
+
+    <!-- GALLERY GRID -->
+    <div class="gallery-grid">
+
+
+        <!-- IMAGE 01 -->
+        <div class="gallery-item gallery-large"
+             data-category="photography">
+
+            <img
+                src="./photo-studio.jpeg"
+                alt="Professional Studio Photography"
+            >
+
+            <div class="gallery-overlay">
+
+                <div>
+                    <span>PHOTOGRAPHY</span>
+                    <h3>Professional Studio</h3>
+                </div>
+
+                <i class="fas fa-expand"></i>
+
+            </div>
+
+        </div>
+
+
+        <!-- IMAGE 02 -->
+        <div class="gallery-item"
+             data-category="events">
+
+            <img
+                src="./weeding.jpeg"
+                alt="Wedding Photography"
+            >
+
+            <div class="gallery-overlay">
+
+                <div>
+                    <span>EVENTS</span>
+                    <h3>Wedding Moments</h3>
+                </div>
+
+                <i class="fas fa-expand"></i>
+
+            </div>
+
+        </div>
+
+
+        <!-- IMAGE 03 -->
+        <div class="gallery-item"
+             data-category="events">
+
+            <img
+                src="./birthday.jpeg"
+                alt="Birthday Event Photography"
+            >
+
+            <div class="gallery-overlay">
+
+                <div>
+                    <span>EVENTS</span>
+                    <h3>Birthday Celebration</h3>
+                </div>
+
+                <i class="fas fa-expand"></i>
+
+            </div>
+
+        </div>
+
+
+        <!-- IMAGE 04 -->
+        <div class="gallery-item gallery-tall"
+             data-category="events">
+
+            <img
+                src="./Graduation.png"
+                alt="Graduation Photography"
+            >
+
+            <div class="gallery-overlay">
+
+                <div>
+                    <span>ACHIEVEMENT</span>
+                    <h3>Graduation Memories</h3>
+                </div>
+
+                <i class="fas fa-expand"></i>
+
+            </div>
+
+        </div>
+
+
+        <!-- IMAGE 05 -->
+        <div class="gallery-item"
+             data-category="gifts">
+
+            <img
+                src="./GIFT.jpeg"
+                alt="Customized Gifts"
+            >
+
+            <div class="gallery-overlay">
+
+                <div>
+                    <span>CUSTOMIZED GIFTS</span>
+                    <h3>Personalized Gifts</h3>
+                </div>
+
+                <i class="fas fa-expand"></i>
+
+            </div>
+
+        </div>
+
+
+        <!-- IMAGE 06 -->
+        <div class="gallery-item"
+             data-category="printing">
+
+            <img
+                src="./printing.jpeg"
+                alt="Photo Printing Service"
+            >
+
+            <div class="gallery-overlay">
+
+                <div>
+                    <span>PRINTING</span>
+                    <h3>Photo Printing</h3>
+                </div>
+
+                <i class="fas fa-expand"></i>
+
+            </div>
+
+        </div>
+
+
+        <!-- IMAGE 07 -->
+        <div class="gallery-item"
+             data-category="gifts">
+
+            <img
+                src="./Frames.jpeg"
+                alt="Customized Photo Frames"
+            >
+
+            <div class="gallery-overlay">
+
+                <div>
+                    <span>FRAMES</span>
+                    <h3>Customized Frames</h3>
+                </div>
+
+                <i class="fas fa-expand"></i>
+
+            </div>
+
+        </div>
+
+
+        <!-- IMAGE 08 -->
+        <div class="gallery-item"
+             data-category="photography">
+
+            <img
+                src="./pastphotphoto.jpeg"
+                alt="Passport Photography"
+            >
+
+            <div class="gallery-overlay">
+
+                <div>
+                    <span>STUDIO</span>
+                    <h3>Passport Photos</h3>
+                </div>
+
+                <i class="fas fa-expand"></i>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- GALLERY CTA -->
+
+    <div class="gallery-cta">
+
+        <div class="gallery-cta-icon">
+            <i class="fas fa-camera"></i>
+        </div>
+
+        <div class="gallery-cta-content">
+
+            <span>
+                HAVE A SPECIAL MOMENT?
+            </span>
+
+            <h3>
+                Let Us Capture It Beautifully.
+            </h3>
+
+        </div>
+
+        <a
+            href="https://wa.me/923165340832?text=Assalam%20o%20Alaikum%2C%20I%20want%20to%20book%20a%20photography%20service."
+            target="_blank"
+            class="gallery-cta-btn"
+        >
+            <i class="fab fa-whatsapp"></i>
+            Contact Us
+        </a>
+
+    </div>
+
+</section>
+<!-- =====================================================
+     TAB 4: ONLINE APPLY
+===================================================== -->
+
+<section class="online-apply-section" id="online-apply">
+
+    <!-- HEADER -->
+    <div class="online-apply-header">
+
+        <span class="online-apply-label">
+            <i class="fas fa-globe"></i>
+            ONLINE APPLICATION SERVICES
+        </span>
+
+        <h2>
+            Your Application,
+            <span>Our Assistance.</span>
+        </h2>
+
+        <p>
+            Need help filling an online form? Send your details
+            and required documents through WhatsApp and let
+            Hasnain Studio assist you through the process.
+        </p>
+
+    </div>
+
+
+    <!-- MAIN CONTENT -->
+    <div class="online-apply-container">
+
+
+        <!-- LEFT SIDE -->
+        <div class="online-apply-info">
+
+            <div class="apply-intro-card">
+
+                <div class="apply-icon">
+                    <i class="fas fa-file-signature"></i>
+                </div>
+
+                <div>
+                    <span>ONLINE APPLY HELP</span>
+
+                    <h3>
+                        Simple. Convenient. Reliable.
+                    </h3>
+                </div>
+
+            </div>
+
+
+            <!-- SERVICES -->
+            <div class="apply-services">
+
+                <div class="apply-service">
+                    <div class="apply-service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+
+                    <div>
+                        <h4>University Applications</h4>
+                        <p>
+                            Assistance with online admission
+                            forms for universities.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="apply-service">
+                    <div class="apply-service-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+
+                    <div>
+                        <h4>Federal Board Forms</h4>
+                        <p>
+                            Help with online FBISE forms and
+                            related application processes.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="apply-service">
+                    <div class="apply-service-icon">
+                        <i class="fas fa-upload"></i>
+                    </div>
+
+                    <div>
+                        <h4>Document Uploading</h4>
+                        <p>
+                            Assistance with uploading photographs,
+                            certificates and required documents.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="apply-service">
+                    <div class="apply-service-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+
+                    <div>
+                        <h4>Fee Guidance</h4>
+                        <p>
+                            Guidance for online application fees
+                            and submission steps.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- RIGHT SIDE -->
+        <div class="apply-process-card">
+
+            <div class="process-heading">
+
+                <span>
+                    HOW IT WORKS
+                </span>
+
+                <h3>
+                    Apply in 3 Easy Steps
+                </h3>
+
+            </div>
+
+
+            <!-- STEP 01 -->
+            <div class="apply-step">
+
+                <div class="step-number">
+                    01
+                </div>
+
+                <div class="step-content">
+                    <h4>Contact Us</h4>
+
+                    <p>
+                        Send us a message on WhatsApp and
+                        tell us which application you need help with.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- STEP 02 -->
+            <div class="apply-step">
+
+                <div class="step-number">
+                    02
+                </div>
+
+                <div class="step-content">
+                    <h4>Send Documents</h4>
+
+                    <p>
+                        Share the required documents and
+                        information through WhatsApp.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- STEP 03 -->
+            <div class="apply-step">
+
+                <div class="step-number">
+                    03
+                </div>
+
+                <div class="step-content">
+                    <h4>Application Assistance</h4>
+
+                    <p>
+                        We assist you with the online form,
+                        document uploading and submission process.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- WHATSAPP BUTTON -->
+            <a
+                href="https://wa.me/923165340832?text=Assalam%20o%20Alaikum%2C%20I%20need%20help%20with%20an%20online%20application."
+                target="_blank"
+                class="apply-whatsapp-btn"
+            >
+
+                <i class="fab fa-whatsapp"></i>
+
+                <span>
+                    Apply via WhatsApp
+                </span>
+
+                <i class="fas fa-arrow-right"></i>
+
+            </a>
+
+
+            <!-- PHONE -->
+            <div class="apply-phone">
+
+                <i class="fas fa-phone-alt"></i>
+
+                <span>
+                    0316-5340832
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- BOTTOM NOTICE -->
+    <div class="apply-notice">
+
+        <i class="fas fa-info-circle"></i>
+
+        <p>
+            Please keep your required documents ready before
+            contacting us. Application requirements may vary
+            depending on the institution or service.
+        </p>
+
+    </div>
+
+</section>
+<!-- =====================================================
+     TAB 5: CONTACT
+===================================================== -->
+
+<section class="contact-section" id="contact">
+
+    <!-- TOP HEADER -->
+    <div class="contact-header">
+
+        <span class="contact-label">
+            <i class="fas fa-paper-plane"></i>
+            GET IN TOUCH
+        </span>
+
+        <h2>
+            Let's Create Something
+            <span>Special.</span>
+        </h2>
+
+        <p>
+            Visit Hasnain Studio for photography, printing,
+            customized gifts, online services and more.
+            We are here to assist you.
+        </p>
+
+    </div>
+
+
+    <!-- CONTACT MAIN -->
+    <div class="contact-container">
+
+
+        <!-- LEFT: CONTACT INFORMATION -->
+        <div class="contact-info-card">
+
+            <div class="contact-card-top">
+
+                <span class="contact-mini-label">
+                    HASNAIN STUDIO
+                </span>
+
+                <h3>
+                    We're Here<br>
+                    <span>For You.</span>
+                </h3>
+
+                <p>
+                    Need a photo, print, online application or
+                    customized gift? Get in touch with us directly.
+                </p>
+
+            </div>
+
+
+            <!-- CONTACT ITEMS -->
+
+            <a href="tel:+923165340832" class="contact-item">
+
+                <div class="contact-item-icon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+
+                <div class="contact-item-content">
+                    <span>CALL US</span>
+                    <strong>0316-5340832</strong>
+                    <small>Tap to call directly</small>
+                </div>
+
+                <i class="fas fa-arrow-right contact-arrow"></i>
+
+            </a>
+
+
+            <a
+                href="https://wa.me/923165340832?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20to%20contact%20Hasnain%20Studio."
+                target="_blank"
+                class="contact-item"
+            >
+
+                <div class="contact-item-icon whatsapp-icon">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+
+                <div class="contact-item-content">
+                    <span>WHATSAPP</span>
+                    <strong>0316-5340832</strong>
+                    <small>Message us directly</small>
+                </div>
+
+                <i class="fas fa-arrow-right contact-arrow"></i>
+
+            </a>
+
+
+            <!-- ADDRESS -->
+
+            <div class="contact-item address-item">
+
+                <div class="contact-item-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+
+                <div class="contact-item-content">
+                    <span>OUR LOCATION</span>
+
+                    <strong>
+                        Satti Plaza
+                    </strong>
+
+                    <small>
+                        Near Sultana Foundation,<br>
+                        Lehtrar Road, Islamabad
+                    </small>
+                </div>
+
+            </div>
+
+
+            <!-- HOURS -->
+
+            <div class="contact-item">
+
+                <div class="contact-item-icon">
+                    <i class="fas fa-clock"></i>
+                </div>
+
+                <div class="contact-item-content">
+                    <span>AVAILABILITY</span>
+                    <strong>Open 24 Hours</strong>
+                    <small>Available for your convenience</small>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- RIGHT: MAP / OFFER -->
+        <div class="contact-right">
+
+
+            <!-- SPECIAL OFFER -->
+
+            <div class="contact-offer-card">
+
+                <div class="offer-glow"></div>
+
+                <div class="offer-content">
+
+                    <span class="offer-small">
+                        <i class="fas fa-gift"></i>
+                        SPECIAL OFFER
+                    </span>
+
+                    <h3>
+                        Save More.<br>
+                        <span>Enjoy More.</span>
+                    </h3>
+
+                    <div class="offer-discount">
+                        <strong>20–50%</strong>
+                        <span>OFF</span>
+                    </div>
+
+                    <p>
+                        Get <strong>20% to 50% discount</strong>
+                        on selected services with
+                        <strong>FREE HOME DELIVERY.</strong>
+                    </p>
+
+                    <a
+                        href="https://wa.me/923165340832?text=Assalam%20o%20Alaikum%2C%20I%20want%20to%20know%20about%20your%20special%20offer."
+                        target="_blank"
+                        class="offer-btn"
+                    >
+                        <i class="fab fa-whatsapp"></i>
+                        Ask About Offer
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- LOCATION CARD -->
+
+            <div class="location-card">
+
+                <div class="location-card-header">
+
+                    <div>
+                        <span>FIND US</span>
+
+                        <h3>
+                            Visit Our Studio
+                        </h3>
+                    </div>
+
+                    <div class="location-pin">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+
+                </div>
+
+
+                <!-- MAP VISUAL -->
+
+                <div class="map-preview">
+
+                    <div class="map-pattern"></div>
+
+                    <div class="map-center">
+
+                        <div class="map-pulse"></div>
+
+                        <div class="map-pin-main">
+                            <i class="fas fa-camera"></i>
+                        </div>
+
+                        <div class="map-location-text">
+                            <strong>Hasnain Studio</strong>
+                            <span>Islamabad</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="location-bottom">
+
+                    <div class="location-address">
+
+                        <i class="fas fa-location-dot"></i>
+
+                        <p>
+                            Satti Plaza near Sultana Foundation,
+                            Lehtrar Road, Islamabad.
+                        </p>
+
+                    </div>
+
+
+                    <a
+                        href="https://maps.app.goo.gl/7Le8BBMYUf3zG8KD8"
+                        target="_blank"
+                        class="map-btn"
+                    >
+                        <i class="fas fa-location-arrow"></i>
+                        Open in Google Maps
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- BOTTOM CTA -->
+
+    <div class="contact-bottom">
+
+        <div class="contact-bottom-icon">
+            <i class="fas fa-camera"></i>
+        </div>
+
+        <div class="contact-bottom-text">
+
+            <span>HASNAIN PHOTO STUDIO & PHOTO STATE</span>
+
+            <p>
+                Photography • Printing • Online Services •
+                Customized Gifts
+            </p>
+
+        </div>
+
+
+        <a
+            href="https://wa.me/923165340832?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20to%20contact%20Hasnain%20Studio."
+            target="_blank"
+            class="contact-main-btn"
+        >
+            <i class="fab fa-whatsapp"></i>
+            Contact Us
+        </a>
+
+    </div>
+
+</section>
+<script src="script.js"></script>
+</body>
+
+</html>
